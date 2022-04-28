@@ -1,0 +1,38 @@
+h1 {
+	color: deeppink;
+	background-color: greenyellow;
+	font-weight: bolder;
+	font-size: 6em;
+}
+h3 {
+	color: tomato;
+	background-color: aqua;
+	font-weight: bolder;
+	font-size: 3em;
+}
+body {
+	background-color: rebeccapurple;
+	color: deeppink;
+	font-family: "Tenorite";
+	font-weight: bolder;
+}
+div.titulo {
+	/*center this div*/
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.disenadorContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.disenador {
+	position: relative;
+	top: 0;
+	z-index: -1;
+	width: 90%;
+	height: 90%;
+}
