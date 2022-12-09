@@ -63,35 +63,28 @@ div.titulo {
 	height: 80px;
 }
 
-.marquee {
-	margin: 0;
-	white-space: nowrap;
-	overflow: hidden;
-	position: absolute;
-}
-
-.wrapper {
+.carousel-container {
+	min-height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
+	/* main style */
 	overflow: hidden;
 }
 
-.marquee {
-	white-space: nowrap;
-	overflow: hidden;
-	display: inline-block;
-	animation: marquee 17s linear infinite;
+.text-slide {
+	width: 100%;
+	display: flex;
 }
 
-.marquee p {
-	display: inline-block;
-	overflow: hidden;
-}
-
-@keyframes marquee {
-	0% {
-		transform: translate3d(0, 0, 0);
-	}
-	100% {
-		transform: translate3d(-50%, 0, 0);
-	}
+p.carousel-text {
+	min-width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin: 0;
+	color: #ffffff;
+	font-size: 1.5rem;
+	text-align: center;
+	mix-blend-mode: darken;
 }
